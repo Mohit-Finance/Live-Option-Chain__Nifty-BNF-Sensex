@@ -102,7 +102,7 @@ Each index has its **own Excel sheet** with synchronized updates.
 ## 🖼 Sample Output
 
 ### Live NIFTY Option Chain (Excel)
-![NIFTY Option Chain](./assets/nifty_option_chain.png)
+![NIFTY Option Chain](./Images/nifty_oc.png)
 
 *(BANKNIFTY and SENSEX sheets follow the same structure)*
 

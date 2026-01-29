@@ -51,6 +51,60 @@ Each index has its **own Excel sheet** with synchronized updates.
 
 ---
 
+## 🔄 Live Change Tracking (CE & PE)
+
+- **Change in OI and Change in LTP** are calculated **against previous day close** for:
+  - Call (CE) side
+  - Put (PE) side
+  - **All strikes displayed**
+
+- Excel highlights these changes visually:
+  - 🟢 **Green** → Increase / build-up
+  - 🔴 **Red** → Decrease / decay
+
+- This allows instant identification of:
+  - Long build-up
+  - Short build-up
+  - Long unwinding
+  - Short covering
+
+📌 Works independently for **CE and PE**, strike by strike.
+
+---
+
+## 📍 Live Synthetic ATM Highlight
+
+- A **dedicated horizontal highlight row** marks the **live Synthetic ATM**.
+- The Synthetic ATM updates continuously as prices change.
+- This row **moves automatically** with market movement, ensuring:
+  - ATM is always visually centered
+  - No manual scrolling is required
+
+---
+
+## 🎯 Dynamic ATM-Centered Strike Window
+
+- The option chain is **always centered around the live ATM**:
+  - **15 strikes above ATM**
+  - **15 strikes below ATM**
+
+- When the market moves sharply:
+  - New strikes are **automatically added**
+  - Out-of-range strikes are **removed**
+  - The **15–ATM–15 structure is preserved at all times**
+
+- This ensures:
+  - Only the **most relevant strikes** are displayed
+  - Clean and focused Excel layout
+  - Accurate representation during trending or volatile markets
+
+📌 This adjustment happens **throughout the trading day**, regardless of:
+- Breakouts
+- Sharp directional moves
+- High volatility conditions
+
+---
+
 ## 🧾 Excel Dashboard Structure
 
 ### 📂 Sheets

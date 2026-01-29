@@ -1,5 +1,7 @@
 # 📊 Live Option Chain Dashboard (Python + Upstox API + Excel)
 
+![NIFTY Option Chain – Strategy Build](Images/nifty_occ.png)
+
 A **real-time option chain streaming system** built using **Python** and **Upstox Broker API**, with **tick-by-tick updates directly into Excel**.
 
 This project streams live option chain data for **NIFTY, BANKNIFTY, and SENSEX**, calculates key option metrics (Greeks, IV, OI, depth, PCR), and displays everything in an Excel workbook that updates live — making it ideal for **analysis, strategy testing, and automation research**.

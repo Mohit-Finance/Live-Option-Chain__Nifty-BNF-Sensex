@@ -54,7 +54,6 @@ Each index has its **own Excel sheet** with synchronized updates.
 ## 🧾 Excel Dashboard Structure
 
 ### 📂 Sheets
-- `summary` – High-level market view
 - `nifty` – NIFTY option chain
 - `bnf` – BANKNIFTY option chain
 - `sensex` – SENSEX option chain
@@ -97,7 +96,6 @@ Each index has its **own Excel sheet** with synchronized updates.
 📌 **Color coding in Excel**
 - 🟢 Green → Positive / bullish change
 - 🔴 Red → Negative / bearish change
-- 🟡 Yellow → High activity / notable levels
 
 ---
 
